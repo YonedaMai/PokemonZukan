@@ -1,0 +1,34 @@
+.ポケモン図鑑リスト {
+    max-width: max-content;
+}
+
+.ポケモン図鑑リスト .ポケモン {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    background-color: #E2BF54;
+    color: #1D1716;
+    padding: 0 4px;
+    cursor: pointer;
+    border-radius: 12px 12px 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-color: antiquewhite;
+    border-style: outset;
+    font-size: 22px;
+}
+
+.ポケモン図鑑リスト .ポケモン img {
+    width: 100px;
+}
+
+.ポケモン図鑑リスト .ポケモン span {
+    padding-right: 12px;
+}
+
+.ポケモン図鑑リスト .ポケモン.鮮やか {
+    background-color: #E8CC86;
+}

@@ -1,0 +1,61 @@
+@media (max-width: 750px) {
+    body {
+        font-size: auto;
+    }
+
+    .ポケモンずかん {
+        flex-direction: column;
+        padding: 22px 0;
+    }
+
+    .ポケモン図鑑カードゲーム {
+        max-width: 300px;
+    }
+
+    .ポケモン図鑑カードゲーム .カードゲーム画像 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 {
+        padding: 60px 30px 30px;
+        margin-top: -22px;
+    }
+
+    .ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 .ポケモン情報 {
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 h3 {
+        font-size: 16px;
+    }
+
+    .ポケモン図鑑リスト {
+        max-width: 300px;
+    }
+
+    .ポケモン図鑑リスト ul {
+        display: flex;
+        gap: 4px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ポケモン図鑑リスト .ポケモン {
+        width: 146px;
+        border-radius: 12px 12px 12px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+
+    .ポケモン図鑑リスト .ポケモン img {
+        max-width: 60px;
+    }
+
+    .ポケモン図鑑リスト .ポケモン span {
+        font-size: 12px;
+    }
+}

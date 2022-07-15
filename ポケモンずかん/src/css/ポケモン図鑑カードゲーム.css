@@ -1,0 +1,105 @@
+.ポケモン図鑑カードゲーム {
+    display: none;
+    border-radius: 12px;
+}
+
+.ポケモン図鑑カードゲーム .ポケモンカードゲーム上 {
+    padding: 30px 40px 0;
+}
+
+.ポケモン図鑑カードゲーム .名前 {
+    margin-bottom: 4px;
+}
+
+.ポケモン図鑑カードゲーム .特性 {
+    font-size: large;
+    background-color: #ffffff;
+    opacity: 0.8;
+    border-radius: 12px;
+    padding: 2px 10px;
+}
+
+.ポケモン図鑑カードゲーム .ポケモン詳細 {
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ポケモン図鑑カードゲーム .カードゲーム画像 {
+    width: auto;
+    height: auto;
+    background-color: #EAE5D6;
+    background-image: url(https://zukan.pokemon.co.jp/img/pattern.svg);
+    margin-top: 8px;
+    border-radius: 12px;
+}
+
+.ポケモン図鑑カードゲーム img {
+    max-height: 100%;
+}
+
+.ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 h3 {
+    font-size: 28px;
+    margin-bottom: 2px;
+}
+
+.ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 .ポケモン情報 {
+    padding: 0 10px;
+    width: 280px;
+}
+
+.ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 .ポケモンパワーバー {
+    padding: 0 10px;
+    width: 280px;
+}
+
+.ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 .ポケモン情報 ul li {
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.ポケモン図鑑カードゲーム .ポケモンカードゲーム情報 .ポケモンパワーバー ul li {
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.ポケモン図鑑カードゲーム.オープン {
+    display: block;
+}
+
+.特性-しんりょく {
+    background-color: #80C684;
+}
+
+.特性-もうか {
+    background-color: #F08869;
+}
+
+.特性-げきりゅう {
+    background-color: #4FB2E6;
+}
+
+.特性-りんぷん {
+    background-color: #80C684;
+}
+
+.特性-りんぷん {
+    background-color: #80C684;
+}
+
+.特性-するどいめ-ちどりあし {
+    background-color: #B9C4C6;
+}
