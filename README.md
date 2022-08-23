@@ -9,4 +9,6 @@ I take the opportunity to learn Japanese language with this project and i enjoye
 | Information ||
 | ---- | ---- |
 | Name | Pokedex |
+| Languages | HTML, CSS & JavaScript |
 | Date | 2022.07.22 |
+| Author | Yoneda Mai |
